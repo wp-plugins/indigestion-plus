@@ -3,7 +3,7 @@ Contributors: goblindegook
 Tags: lifestream, digest, feed, rss, atom, post, delicious, google reader, picasa, flickr
 Requires at least: 2.8
 Tested up to: 2.8.4
-Stable tag: trunk
+Stable tag: 0.5
 
 Indigestion+ generates a periodic digest from different customisable feed sources.
 
