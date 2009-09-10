@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: goblindegook
+Author: goblindegook
 Tags: lifestream, digest, feed, rss, atom, post, delicious, google reader, picasa, flickr
 Requires at least: 2.8
 Tested up to: 2.8.4
