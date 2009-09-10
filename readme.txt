@@ -29,10 +29,8 @@ At the moment, Indigestion+ allows only one feed per service via the administrat
 2. Locate `$this->class_loader();` near the start of the file and add new instances for the services you want to duplicate immediately below:
 
 > `$this->class_loader();`
-
-> > **`$this->feeds[] = new IPlusDelicious( 'Delicious 2', 'delicious-2' ); // Example duplicate Delicious account `**
-
-> > **`$this->feeds[] = new IPlusCustom( 'Custom Feed 2', 'custom-2' ); // Example duplicate custom source `**
+> `$this->feeds[] = new IPlusDelicious( 'Delicious 2', 'delicious-2' ); // Example duplicate Delicious account `
+> `$this->feeds[] = new IPlusCustom( 'Custom Feed 2', 'custom-2' ); // Example duplicate custom source `
 
 The first parameter is a user friendly name for the feed, which can be anything you like, while the second should be a *unique* identifier used by the plugin to store your feed options.
 
